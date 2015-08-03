@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A07FC41B5F8938000BC0D4 /* BiaoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A07FC21B5F8938000BC0D4 /* BiaoTableViewCell.m */; };
+		42A07FC51B5F8938000BC0D4 /* BiaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A07FC31B5F8938000BC0D4 /* BiaoTableViewCell.xib */; };
+		42A07FC81B5F897E000BC0D4 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A07FC71B5F897E000BC0D4 /* TableView.m */; };
 		42BD7B0A1B4CC45600A7E958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD7B091B4CC45600A7E958 /* main.m */; };
 		42BD7B0D1B4CC45600A7E958 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD7B0C1B4CC45600A7E958 /* AppDelegate.m */; };
 		42BD7B101B4CC45600A7E958 /* ScrButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42BD7B0E1B4CC45600A7E958 /* ScrButton.xcdatamodeld */; };
@@ -15,6 +18,8 @@
 		42BD7B181B4CC45600A7E958 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BD7B171B4CC45600A7E958 /* Images.xcassets */; };
 		42BD7B1B1B4CC45600A7E958 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42BD7B191B4CC45600A7E958 /* LaunchScreen.xib */; };
 		42BD7B271B4CC45600A7E958 /* ScrButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD7B261B4CC45600A7E958 /* ScrButtonTests.m */; };
+		42BD7B3C1B4CFCE500A7E958 /* SliderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD7B3B1B4CFCE500A7E958 /* SliderScrollView.m */; };
+		42BD7B3F1B4D036D00A7E958 /* SliderButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD7B3E1B4D036D00A7E958 /* SliderButtonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42A07FC11B5F8938000BC0D4 /* BiaoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiaoTableViewCell.h; sourceTree = "<group>"; };
+		42A07FC21B5F8938000BC0D4 /* BiaoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiaoTableViewCell.m; sourceTree = "<group>"; };
+		42A07FC31B5F8938000BC0D4 /* BiaoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BiaoTableViewCell.xib; sourceTree = "<group>"; };
+		42A07FC61B5F897E000BC0D4 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		42A07FC71B5F897E000BC0D4 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
 		42BD7B041B4CC45600A7E958 /* ScrButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BD7B081B4CC45600A7E958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42BD7B091B4CC45600A7E958 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +52,10 @@
 		42BD7B201B4CC45600A7E958 /* ScrButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BD7B251B4CC45600A7E958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42BD7B261B4CC45600A7E958 /* ScrButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrButtonTests.m; sourceTree = "<group>"; };
+		42BD7B3A1B4CFCE500A7E958 /* SliderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderScrollView.h; sourceTree = "<group>"; };
+		42BD7B3B1B4CFCE500A7E958 /* SliderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderScrollView.m; sourceTree = "<group>"; };
+		42BD7B3D1B4D036D00A7E958 /* SliderButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderButtonView.h; sourceTree = "<group>"; };
+		42BD7B3E1B4D036D00A7E958 /* SliderButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderButtonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,15 @@
 				42BD7B191B4CC45600A7E958 /* LaunchScreen.xib */,
 				42BD7B0E1B4CC45600A7E958 /* ScrButton.xcdatamodeld */,
 				42BD7B071B4CC45600A7E958 /* Supporting Files */,
+				42BD7B3A1B4CFCE500A7E958 /* SliderScrollView.h */,
+				42BD7B3B1B4CFCE500A7E958 /* SliderScrollView.m */,
+				42BD7B3D1B4D036D00A7E958 /* SliderButtonView.h */,
+				42BD7B3E1B4D036D00A7E958 /* SliderButtonView.m */,
+				42A07FC11B5F8938000BC0D4 /* BiaoTableViewCell.h */,
+				42A07FC21B5F8938000BC0D4 /* BiaoTableViewCell.m */,
+				42A07FC31B5F8938000BC0D4 /* BiaoTableViewCell.xib */,
+				42A07FC61B5F897E000BC0D4 /* TableView.h */,
+				42A07FC71B5F897E000BC0D4 /* TableView.m */,
 			);
 			path = ScrButton;
 			sourceTree = "<group>";
@@ -202,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A07FC51B5F8938000BC0D4 /* BiaoTableViewCell.xib in Resources */,
 				42BD7B161B4CC45600A7E958 /* Main.storyboard in Resources */,
 				42BD7B1B1B4CC45600A7E958 /* LaunchScreen.xib in Resources */,
 				42BD7B181B4CC45600A7E958 /* Images.xcassets in Resources */,
@@ -222,10 +246,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A07FC41B5F8938000BC0D4 /* BiaoTableViewCell.m in Sources */,
+				42A07FC81B5F897E000BC0D4 /* TableView.m in Sources */,
 				42BD7B101B4CC45600A7E958 /* ScrButton.xcdatamodeld in Sources */,
 				42BD7B0D1B4CC45600A7E958 /* AppDelegate.m in Sources */,
 				42BD7B131B4CC45600A7E958 /* ViewController.m in Sources */,
+				42BD7B3C1B4CFCE500A7E958 /* SliderScrollView.m in Sources */,
 				42BD7B0A1B4CC45600A7E958 /* main.m in Sources */,
+				42BD7B3F1B4D036D00A7E958 /* SliderButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScrButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -364,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScrButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,6 +452,7 @@
 				42BD7B2C1B4CC45600A7E958 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42BD7B2D1B4CC45600A7E958 /* Build configuration list for PBXNativeTarget "ScrButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +461,7 @@
 				42BD7B2F1B4CC45600A7E958 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
