@@ -23,10 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    SliderButtonView *sli = [[SliderButtonView alloc] initWithFrame:CGRectMake(0, 0,kScreenWidth, 44) withButtonNames:@[@"正在招标", @"最新满标", @"成功还标"]];
-    [self.view addSubview:sli];
-    
-    
+    // 建三个view
     TableView *view1 = [[TableView alloc] initWithFrame:CGRectMake(0, 44, kScreenWidth, kScreenHeight - 88)];
     view1.backgroundColor = [UIColor redColor];
     
@@ -36,6 +33,10 @@
     UIView *view3 = [[UIView alloc] initWithFrame:CGRectMake(0, 44, kScreenWidth, kScreenHeight - 44)];
     view3.backgroundColor = [UIColor purpleColor];
     NSArray *viewArray = @[view1, view2, view3];
+    
+    // 建三个按钮
+    SliderButtonView *sli = [[SliderButtonView alloc] initWithFrame:CGRectMake(0, 0,kScreenWidth, 44) withButtonNames:@[@"正在招标", @"最新满标", @"成功还标"]];
+    [self.view addSubview:sli];
     
     SliderScrollView *slis = [[SliderScrollView alloc] initWithFrame:CGRectMake(0, 44, kScreenWidth, kScreenHeight - 44) withViewArray:viewArray];
     [self.view addSubview:slis];
