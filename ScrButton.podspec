@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.version      = "0.0.1"
   s.summary      = "bbb"
-    s.license  = 'MIT'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -42,7 +41,7 @@ wwwwwwwww
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "license" }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
