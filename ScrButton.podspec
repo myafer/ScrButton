@@ -42,7 +42,7 @@ wwwwwwwww
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "1211111"
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
