@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 wwwwwwwww
                    DESC
 
-  s.homepage     = "http://EXAMPLE/AferNet"
+  s.homepage     = "https://github.com/myafer"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
