@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "license" }
   s.author             = { "ScrButton" => "" }
   s.source       = { :git => "https://github.com/myafer/ScrButton.git", :tag => "0.0.3" }
-  s.source_files  = "ScrButton", "ScrButton.{h,m}"
+  s.source_files  = "ScrButton", "ScrButton/ScrButton/**/*"
 end
