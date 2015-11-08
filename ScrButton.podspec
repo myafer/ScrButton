@@ -93,7 +93,7 @@ wwwwwwwww
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ScrButton", "ScrButton.{h,m}"
+  s.source_files  = "ScrButton", "ScrButton/ScrButton.{h,m}"
   #s.exclude_files = "ScrButton/ScrButton"
 
   # s.public_header_files = "Classes/**/*.h"
